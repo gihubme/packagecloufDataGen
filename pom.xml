@@ -145,4 +145,14 @@
         <url>https://github.com/gihubme/packagecloufDataGen</url>
         <tag>HEAD</tag>
     </scm>
+    <distributionManagement>
+        <repository>
+            <id>packagecloud.release</id>
+            <url>packagecloud+https://packagecloud.io/nikakar/mvnrelease</url>
+        </repository>
+        <!--        <snapshotRepository>-->
+        <!--            <id>packagecloud.snapshot</id>-->
+        <!--            <url>packagecloud+https://packagecloud.io/nikakar/mvnsnapshot</url>-->
+        <!--        </snapshotRepository>-->
+    </distributionManagement>
 </project>
